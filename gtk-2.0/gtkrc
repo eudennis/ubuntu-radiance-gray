@@ -1,4 +1,4 @@
-gtk-color-scheme = "base_color:#ffffff\nfg_color:#4c4c4c\ntooltip_fg_color:#ffffff\nselected_bg_color:#f07746\nselected_fg_color:#FFFFFF\ntext_color:#3C3C3C\nbg_color:#f6f4f2\ntooltip_bg_color:#000000\nlink_color:#DD4814"
+gtk-color-scheme = "base_color:#ffffff\nfg_color:#4c4c4c\ntooltip_fg_color:#ffffff\nselected_bg_color:#f07746\nselected_fg_color:#FFFFFF\ntext_color:#3C3C3C\nbg_color:#f4f4f4\ntooltip_bg_color:#000000\nlink_color:#DD4814"
 
 gtk-icon-sizes = "panel-menu=22,22:gtk-button=16,16"
 
@@ -120,11 +120,11 @@ style "default" {
 
 style "dark"
 {
-	bg[NORMAL]   = "#f4f4f4"
-	bg[PRELIGHT] = shade (1.05, "#f4f4f4")
+	bg[NORMAL]   = "#ebebeb"
+	bg[PRELIGHT] = shade (1.05, "#ebebeb")
 	bg[SELECTED] = @selected_bg_color
-	bg[ACTIVE]   = shade (0.95, "#f4f4f4")
-	bg[INSENSITIVE]   = "#f4f4f4"
+	bg[ACTIVE]   = shade (0.95, "#ebebeb")
+	bg[INSENSITIVE]   = "#ebebeb"
 }
 
 style "wide" {
